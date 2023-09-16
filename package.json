@@ -1,0 +1,19 @@
+{
+	"name": "for-drizzle-orm-issue",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "ts-node ./src/main.ts",
+		"watch": "ts-node-dev --respawn --transpile-only ./src/main.ts"
+	},
+	"devDependencies": {
+		"@types/better-sqlite3": "^7.6.5",
+		"@types/node": "^20.6.2",
+		"ts-node": "^10.9.1",
+		"ts-node-dev": "^2.0.0"
+	},
+	"dependencies": {
+		"better-sqlite3": "^8.6.0",
+		"drizzle-orm": "^0.28.6"
+	}
+}
